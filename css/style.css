@@ -431,6 +431,18 @@ body::after {
   transition: color 0.5s ease 0s;
 }
 
+.logo {
+  max-width: 8.125rem;
+}
+
+.logo img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 1.375rem;
+  width: 100%;
+}
+
 .title {
   font-weight: 900;
   line-height: 130%;
@@ -714,8 +726,8 @@ body::after {
 
 .hero__image {
   text-align: right;
-  max-width: 602px;
-  max-height: 551px;
+  max-width: 37.625rem;
+  max-height: 34.4375rem;
 }
 
 .hero__image img {
