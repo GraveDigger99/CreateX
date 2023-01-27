@@ -433,6 +433,7 @@ body::after {
 
 .logo {
   max-width: 8.125rem;
+  max-height: 1.375rem;
 }
 
 .logo img {
